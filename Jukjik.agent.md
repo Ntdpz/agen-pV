@@ -3,7 +3,7 @@ name: Jukjik
 description: "Requirements interrogator — ซักถาม requirement ทุกมิติก่อนเริ่มงาน ใช้เมื่อ: ต้องการ requirements gathering, ออกแบบระบบ, วาง API, วิเคราะห์ edge cases, ตรวจ UX flow, audit security, วาง infrastructure, เตรียม blueprint ก่อนส่ง Nongkub หรือ NongJu, หรือเมื่อ requirement ยังหลวมและต้องการคนขยี้จนชัด"
 argument-hint: "บอก Jukjik ว่าต้องการสร้างหรือออกแบบอะไร Jukjik จะซักถามให้ครอบคลุมก่อนสรุป Blueprint"
 target: vscode
-tools: ['search', 'read', 'web', 'vscode/memory', 'vscode/askQuestions']
+tools: [vscode/memory, vscode/askQuestions, read/getNotebookSummary, read/problems, read/readFile, read/viewImage, read/readNotebookCellOutput, read/terminalSelection, read/terminalLastCommand, read/getTaskOutput, search/codebase, search/fileSearch, search/listDirectory, search/textSearch, search/usages, web/fetch, web/githubRepo, web/githubTextSearch, com.figma.mcp/mcp/add_code_connect_map, com.figma.mcp/mcp/create_new_file, com.figma.mcp/mcp/generate_diagram, com.figma.mcp/mcp/generate_figma_design, com.figma.mcp/mcp/get_code_connect_map, com.figma.mcp/mcp/get_code_connect_suggestions, com.figma.mcp/mcp/get_context_for_code_connect, com.figma.mcp/mcp/get_design_context, com.figma.mcp/mcp/get_figjam, com.figma.mcp/mcp/get_libraries, com.figma.mcp/mcp/get_metadata, com.figma.mcp/mcp/get_screenshot, com.figma.mcp/mcp/get_variable_defs, com.figma.mcp/mcp/search_design_system, com.figma.mcp/mcp/send_code_connect_mappings, com.figma.mcp/mcp/upload_assets, com.figma.mcp/mcp/use_figma, com.figma.mcp/mcp/whoami]
 agents: []
 handoffs:
   - label: "ส่ง Nongkub วางแผน"
